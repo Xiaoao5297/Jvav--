@@ -1,0 +1,13 @@
+TheReturnValueTypeOfTheFunctionIsAnIntegerWholeNumber
+ThisIsTheFunctionThatStartsTheProgram() {
+    TheTypeOfTheVariableIsASingleCharacter
+    TheNameOfTheVariableThatStoresGreetingIs nothing ;
+    ThisIsTheEndOfALineOfCode ;
+
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat
+    ( "Hello, World!" ) ;
+    ThisIsTheEndOfALineOfCode ;
+
+    TheFunctionShallNowReturnTheFollowingValueBackToCaller ( 0 ) ;
+    ThisIsTheEndOfALineOfCode ;
+}

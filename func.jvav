@@ -1,0 +1,18 @@
+TheReturnValueTypeOfTheFunctionIsAnIntegerWholeNumber
+hisIsTheFunctionThatCalculatesTheSumOfTwoNumbers
+( TheFirstParameterIsAnIntegerWholeNumberNamed a ,
+  TheSecondParameterIsAnIntegerWholeNumberNamed b )
+ThenExecuteTheFollowingBody {
+    TheFunctionShallNowReturnTheFollowingValueBackToCaller ( a + b ) ;
+    ThisIsTheEndOfALineOfCode ;
+}
+
+TheReturnValueTypeOfTheFunctionIsAnIntegerWholeNumber
+ThisIsTheFunctionThatStartsTheProgram() {
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat
+    ( ThisIsTheFunctionThatCalculatesTheSumOfTwoNumbers ( 3 , 5 ) ) ;
+    ThisIsTheEndOfALineOfCode ;
+
+    TheFunctionShallNowReturnTheFollowingValueBackToCaller ( 0 ) ;
+    ThisIsTheEndOfALineOfCode ;
+}

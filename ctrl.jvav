@@ -1,0 +1,44 @@
+TheReturnValueTypeOfTheFunctionIsAnIntegerWholeNumber
+ThisIsTheFunctionThatStartsTheProgram() {
+    TheTypeOfTheVariableIsAnIntegerWholeNumber
+    TheNameOfTheVariableThatStoresCounterIs counter
+    AndTheInitialValueAssignedToTheVariableIs 0 ;
+    ThisIsTheEndOfALineOfCode ;
+
+    TheLoopCounterStartsAtTheValue ( counter = 0 )
+    AndItContinuesWhileTheConditionIsTrue ( counter < 5 )
+    AndItIncrementsByOneOnEachIteration ( counter++ )
+    ThenRepeatTheFollowingBlockOfCode {
+        IfTheFollowingConditionHappensToBeTrue ( counter > 2 )
+        ThenExecuteTheFollowingBlockOfCode {
+            PrintTheGivenContentOntoTheConsoleScreenInReadableFormat ( counter ) ;
+            ThisIsTheEndOfALineOfCode ;
+        }
+        OtherwiseWhenTheConditionWasNotTrue
+        ThenExecuteThisOtherBlockOfCode {
+            PrintTheGivenContentOntoTheConsoleScreenInReadableFormat ( "小" ) ;
+            ThisIsTheEndOfALineOfCode ;
+        }
+    }
+
+    KeepRepeatingTheFollowingBlockWhileTheConditionHolds ( counter > 0 )
+    ThenExecuteTheCodeInsideRepeatedly {
+        counter-- ;
+        ThisIsTheEndOfALineOfCode ;
+        PrintTheGivenContentOntoTheConsoleScreenInReadableFormat
+        ( ThisIsTheFunctionThatCalculatesTheSumOfTwoNumbers ( counter , 100 ) ) ;
+        ThisIsTheEndOfALineOfCode ;
+    }
+
+    TheFunctionShallNowReturnTheFollowingValueBackToCaller ( 0 ) ;
+    ThisIsTheEndOfALineOfCode ;
+}
+
+TheReturnValueTypeOfTheFunctionIsAnIntegerWholeNumber
+ThisIsTheFunctionThatCalculatesTheSumOfTwoNumbers
+( TheFirstParameterIsAnIntegerWholeNumberNamed a ,
+  TheSecondParameterIsAnIntegerWholeNumberNamed b )
+ThenExecuteTheFollowingBody {
+    TheFunctionShallNowReturnTheFollowingValueBackToCaller ( a + b ) ;
+    ThisIsTheEndOfALineOfCode ;
+}

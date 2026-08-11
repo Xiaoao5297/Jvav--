@@ -1,0 +1,35 @@
+TheReturnValueTypeOfTheFunctionIsAnIntegerWholeNumber
+ThisIsTheFunctionThatCalculatesTheFactorialOfANumber
+( TheFirstParameterIsAnIntegerWholeNumberNamed n )
+ThenExecuteTheFollowingBody {
+    IfTheFollowingConditionHappensToBeTrue ( n <= 1 )
+    ThenExecuteTheFollowingBlockOfCode {
+        TheFunctionShallNowReturnTheFollowingValueBackToCaller ( 1 ) ;
+        ThisIsTheEndOfALineOfCode ;
+    }
+    OtherwiseWhenTheConditionWasNotTrue
+    ThenExecuteThisOtherBlockOfCode {
+        TheFunctionShallNowReturnTheFollowingValueBackToCaller
+        ( n * ThisIsTheFunctionThatCalculatesTheFactorialOfANumber ( n - 1 ) ) ;
+        ThisIsTheEndOfALineOfCode ;
+    }
+}
+
+TheReturnValueTypeOfTheFunctionIsAnIntegerWholeNumber
+ThisIsTheFunctionThatStartsTheProgram() {
+    TheTypeOfTheVariableIsAnIntegerWholeNumber
+    TheNameOfTheVariableThatStoresInputNumberIs inputNumber
+    AndTheInitialValueAssignedToTheVariableIs 0 ;
+    ThisIsTheEndOfALineOfCode ;
+
+    ReadInputFromTheUserAndStoreItIntoTheGivenVariable
+    ( "%d", TheAddressOfTheVariableThatStoresInputNumber ) ;
+    ThisIsTheEndOfALineOfCode ;
+
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat
+    ( ThisIsTheFunctionThatCalculatesTheFactorialOfANumber ( inputNumber ) ) ;
+    ThisIsTheEndOfALineOfCode ;
+
+    TheFunctionShallNowReturnTheFollowingValueBackToCaller ( 0 ) ;
+    ThisIsTheEndOfALineOfCode ;
+}

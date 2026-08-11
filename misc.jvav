@@ -1,0 +1,17 @@
+ThisIsAComment: 这是一个测试注释
+ThisIsAComment: ThisIsAComment: 无限套娃注释，随便写多少字都可以
+
+TheReturnValueTypeOfTheFunctionIsADecimalNumberWithFloatingPoint
+ThisIsTheFunctionThatStartsTheProgram() {
+    TheTypeOfTheVariableIsADecimalNumberWithFloatingPoint
+    TheNameOfTheVariableThatStoresHalfValueIs halfValue
+    AndTheInitialValueAssignedToTheVariableIs 0.5 ;
+    ThisIsTheEndOfALineOfCode ;
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat ( halfValue * 3 ) ;
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat ( halfValue / 2 ) ;
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat ( 2 > 1 ) ;
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat ( "a" == "a" ) ;
+    PrintTheGivenContentOntoTheConsoleScreenInReadableFormat ( "再" + "见" ) ;
+    TheFunctionShallNowReturnTheFollowingValueBackToCaller ( 0 ) ;
+    ThisIsTheEndOfALineOfCode ;
+}
